@@ -1,0 +1,1 @@
+0. this program will asiign a random number to the variable
