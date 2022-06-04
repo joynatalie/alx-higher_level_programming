@@ -1,6 +1,7 @@
 #!/usr/bin/python
 def element_at(my_list, idx):
-    """Retrive an element from a list."""
-    if idx < 0 or idx > (len(my_list) - 1):
-        return None
-    return (my_list[idx])
+    for arr in range(len(my_list)):
+        if ((idx < 0) or (idx > len(my_list))):
+            return (None)
+        elif (idx == arr):
+            return (my_list[arr])
